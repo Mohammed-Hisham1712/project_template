@@ -1,0 +1,21 @@
+menu "My print"
+
+config ENABLE_MY_PRINT
+	bool "Enable my custom print function"
+	default n
+	help
+		Defines CONFIG_ENABLE_MY_PRINT
+
+config MY_PRINT_HELLO
+	bool "Print Hello!"
+	default n
+	help
+		Defines CONFIG_MY_PRINT_HELLO
+
+config MY_PRINT_WELCOME
+	bool "Print Welcome!"
+	default n
+	help
+		Defines CONFIG_MY_PRINT_WELCOME
+
+endmenu
